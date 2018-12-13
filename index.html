@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is the countdown</title>
+    <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+            body {
+                background: #363f48;
+                color: white;
+                font: normal 12px 'Open Sans', sans-serif;
+                margin-top: 20px;
+            }
+			
+			p.title {
+			    font-size:40px;
+                font-weight: 200;
+				text-align: center;
+			}
+			
+	/* Countdown 1 */
+
+            ul.countdown {
+                list-style: none;
+                margin: 75px 0;
+                padding: 0;
+                display: block;
+                text-align: center;
+            }
+
+            ul.countdown li {
+                display: inline-block;
+            }
+
+            ul.countdown li span {
+                font-size: 80px;
+                font-weight: 300;
+                line-height: 80px;
+            }
+
+            ul.countdown li.seperator {
+                font-size: 80px;
+                line-height: 70px;
+                vertical-align: top;
+            }
+
+            ul.countdown li p {
+                color: #a7abb1;
+                font-size: 14px;
+            }
+			
+	/* Countdown 2 */
+			
+			ul.countdown2 {
+                list-style: none;
+                margin: 75px 0;
+                padding: 0;
+                display: block;
+                text-align: center;
+            }
+
+            ul.countdown2 li {
+                display: inline-block;
+            }
+
+            ul.countdown2 li span {
+                font-size: 80px;
+                font-weight: 300;
+                line-height: 80px;
+            }
+
+            ul.countdown2 li.seperator {
+                font-size: 80px;
+                line-height: 70px;
+                vertical-align: top;
+            }
+
+            ul.countdown2 li p {
+                color: #a7abb1;
+                font-size: 14px;
+            }
+			
+	/* Countdown 3 */
+			
+			ul.countdown3 {
+                list-style: none;
+                margin: 75px 0;
+                padding: 0;
+                display: block;
+                text-align: center;
+            }
+
+            ul.countdown3 li {
+                display: inline-block;
+            }
+
+            ul.countdown3 li span {
+                font-size: 80px;
+                font-weight: 300;
+                line-height: 80px;
+            }
+
+            ul.countdown3 li.seperator {
+                font-size: 80px;
+                line-height: 70px;
+                vertical-align: top;
+            }
+
+            ul.countdown3 li p {
+                color: #a7abb1;
+                font-size: 14px;
+            }
+			
+	/* Countdown 4 */
+			
+			ul.countdown4 {
+                list-style: none;
+                margin: 75px 0;
+                padding: 0;
+                display: block;
+                text-align: center;
+            }
+
+            ul.countdown4 li {
+                display: inline-block;
+            }
+
+            ul.countdown4 li span {
+                font-size: 80px;
+                font-weight: 300;
+                line-height: 80px;
+            }
+
+            ul.countdown4 li.seperator {
+                font-size: 80px;
+                line-height: 70px;
+                vertical-align: top;
+            }
+
+            ul.countdown4 li p {
+                color: #a7abb1;
+                font-size: 14px;
+            }
+			
+
+            a {
+                color: #76949F;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .btn {
+                background: #f56c4c;
+                margin: 40px auto;
+                padding: 12px;
+                display: block;
+                width: 100px;
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-decoration: none;
+                -webkit-border-radius: 2px;
+                   -moz-border-radius: 2px;
+                        border-radius: 2px;
+            }
+
+            .btn:hover {
+                text-decoration: none;
+                opacity: .7;
+            }
+    </style>
+</head>
+
+<body>
+<!--Countdown 1-->
+<p class="title">Time until <strong>Christmas </strong><img src="christmas.png" height="70" align="top"></p>
+    <ul class="countdown">
+        <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+        </li>
+        <li class="seperator">.</li>
+        <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+        </li>
+    </ul>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.downCount.js"></script>
+
+    <script type="text/javascript">
+        $('.countdown').downCount({
+            date: '12/25/2018 12:00:00',
+            offset: +5
+        }, function () {
+            alert('WOOT WOOT, done!');
+        });
+    </script>
+<!--End Countdown 1-->
+	
+<!--Countdown 2-->
+<p class="title">Time until <strong>AGDQ 2019 </strong><img src="games2.png" height="40" align="top"></p>
+	 <ul class="countdown2">
+        <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+        </li>
+        <li class="seperator">.</li>
+        <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        $('.countdown2').downCount({
+            date: '1/6/2019 12:00:00',
+            offset: +5
+        }, function () {
+            alert('WOOT WOOT, done!');
+        });
+    </script>
+<!--End Countdown 2-->	
+
+<!--Countdown 3-->
+<p class="title">Time until <strong>Avengers: Endgame </strong><img src="avengers.png" height="60" align="top"></p>
+	 <ul class="countdown3">
+        <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+        </li>
+        <li class="seperator">.</li>
+        <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        $('.countdown3').downCount({
+            date: '4/26/2019 12:00:00',
+            offset: +5
+        }, function () {
+            alert('WOOT WOOT, done!');
+        });
+    </script>
+<!--End Countdown 3-->
+
+<!--Countdown 4-->
+<p class="title">Time until <strong>Star Wars: Episode IX </strong><img src="starwars.png" height="50" align="top"></p>
+	 <ul class="countdown4">
+        <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+        </li>
+        <li class="seperator">.</li>
+        <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        $('.countdown4').downCount({
+            date: '12/20/2019 12:00:00',
+            offset: +5
+        }, function () {
+            alert('WOOT WOOT, done!');
+        });
+    </script>
+<!--End Countdown 4-->		
+
+
+</body>
+</html>
