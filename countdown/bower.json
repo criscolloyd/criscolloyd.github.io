@@ -1,12 +1,12 @@
 {
-  "name": "downCount",
+  "name": "upCount",
   "version": "1.0.0",
   "homepage": "https://github.com/sonnyt/downCount",
   "description": "jQuery countdown plugin that accounts for timezone.",
-  "main": "jquery.downCount.js",
+  "main": "jquery.upCount.js",
   "keywords": [
     "jquery",
-    "countdown",
+    "countup",
     "timezone"
   ],
   "license": "MIT",
